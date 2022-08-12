@@ -1,0 +1,460 @@
+
+body {
+    background-color: rgb(45, 102, 45);
+    
+  }
+  
+  @media only screen and (max-width: 300px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+
+.piso{
+    margin-left: 10%;
+    margin-right: 9%;
+    display: flex;
+    min-width: 112px;
+    
+    height: auto;
+background-color: #0a4a27;
+align-items: center;
+padding: 1px;
+}
+section{
+   width: 47%;
+    height: 950px; /*altura*/
+    background-color: rgb(254, 254, 254);
+    /*margenes izp y dere*/
+    margin-left: 10%;
+
+    float: left;
+
+}
+aside{
+    width: 32%;
+    height: 950px; /*altura*/
+    float: right;
+    background-color: rgb(253, 252, 255);
+    /*margenes izp y dere*/
+    margin-right: 9%;
+
+}
+footer{
+    width:81%; /*ancho*/
+    height: 100px; /*altura*/
+    background-color: rgb(45, 44, 64);
+    /*margenes izp y dere*/
+   float: left;
+    margin-right: 10%;
+  margin-left: 10%;
+    margin-top: 8px;  /* le da un espacio parque no este junto*/
+
+    
+}
+
+
+
+.fideo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fideo{
+    
+ margin-left: 10%;
+ min-width: 205px;
+}
+.fideo h4{
+    float:left ;/*esto es para poner el texto al costado de la imgen*/
+    position: relative;/*esto es para poner el texto al costado de la imgen*/
+    display: block;
+    margin-right: 10%;
+    color: #ffffff;
+}
+footer h3{
+    margin-left: 3%;
+margin: 1%;
+color: beige;
+}
+
+.logo img{
+margin-left: 5%;
+width: 90%;
+margin: auto;
+}
+
+
+/* este es el subtitulo negro*/
+
+*{
+  
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+
+.navegacion ul{
+    list-style-type: none;
+    margin: auto;
+    margin-left: 10%;
+    margin-right: 1%;
+    min-width: 250px;
+}
+.menu > li {
+    position: relative;
+float: left;  /*este es pra que pongas el contenido ala misma distancia*/
+background: #0a111c;
+margin: auto;
+
+
+}
+.menu > li > a{
+    margin-right: 10%;
+    display: block;
+    margin: auto;
+    width: 9;
+    padding: 10px 88px ;
+    color: rgb(247, 247, 247);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-decoration: none;
+
+
+
+}
+.menu li a:hover{
+    color:rgb(6, 77, 36);
+    transition: all .3s;
+    background-color: rgb(128, 180, 180);
+    margin: auto;
+   
+
+}
+.submenu{
+    position: absolute;
+    background: rgb(0, 0, 0);
+    width: 100%;
+    display: none;
+    margin: auto;
+}
+.submenu li a {
+    display: block;
+    padding: 15px;
+    color: rgb(240, 240, 240);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    margin: auto;
+   
+}
+
+.menu li:hover .submenu{
+    display:block;
+    margin: auto;
+}
+
+section h1{
+    padding: 10%;
+}
+/* aca termina*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*este s la tbla*/
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  /*aca termina*/
+
+
+.pelota{
+    margin-left: 5%;
+    margin-right: 5%;
+   
+    
+}
+.pelota img{
+    padding: 5%;
+    float:left ;/*esto es para poner el texto al costado de la imgen*/
+    position: relative;/*esto es para poner el texto al costado de la imgen*/
+    display: block;
+}
+.pelota p{
+    float:right ;/*esto es para poner el texto al costado de la imgen*/
+    position: relative;/*esto es para poner el texto al costado de la imgen*/
+    display: block;
+}
+.pelota h5{
+    padding: 5%;
+}
+.planeta{
+    width: 100%; /*ancho*/
+    height: 250px; /*altura*/
+    background-color: rgb(206, 127, 127);
+   border-radius: 10%;
+
+   
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
